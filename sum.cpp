@@ -1,8 +1,11 @@
-int sum(){
-	int sum =0
-	for(int i =0;i<=10:i++){
-		sum += i
+#include "sum.h"
+
+int sum(int n){
+	int result =0;
+	for(int i =0;i<=10;i++){
+		result += i;
 	}
-	return sum
+	return result;
+}
 
 
